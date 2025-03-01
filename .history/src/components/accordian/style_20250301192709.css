@@ -1,0 +1,49 @@
+body {
+    /* background-image: url(../../assets/coding.jpg); */
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+.wrapper button {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.accordian {
+    width: 91vw;
+}
+
+.item {
+    background: #614101;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-family: monospace;
+}
+
+.title {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    color: white;
+    height: auto;
+}
