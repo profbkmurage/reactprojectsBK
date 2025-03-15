@@ -1,0 +1,9 @@
+.star-rating 
+
+.active {
+    color: magenta;
+}
+
+.inactive {
+    color: peru;
+}

@@ -1,0 +1,12 @@
+.star-rating {
+    height: 100vh;
+    
+}
+
+.active {
+    color: magenta;
+}
+
+.inactive {
+    color: peru;
+}
