@@ -1,0 +1,11 @@
+.star-rating {
+    width: 100vw;
+}
+
+ .active {
+    color: magenta;
+}
+
+.inactive {
+    color: white;
+}

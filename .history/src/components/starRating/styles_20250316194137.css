@@ -1,0 +1,17 @@
+.star-rating {
+    width: 100vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: magenta;
+    flex
+}
+
+.star-rating-active {
+    color: #831077;
+}
+
+.star-rating-inactive {
+    color: white;
+}
