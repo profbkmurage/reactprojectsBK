@@ -10,14 +10,14 @@ function App () {
     <>
       <TreeView menus={menus} />
       <LoadMoreData />
+        url={'https://picsum.photos/v2/list?'}
+        page={'1'}
+      <ImageSlider
+        limit={'5'}
+      />
       <StarRating noOfStars={10} />
       <RandomColor />
       <Accordian />
-      <ImageSlider
-        url={'https://picsum.photos/v2/list?'}
-        page={'1'}
-        limit={'5'}
-      />
     </>
   )
 }
