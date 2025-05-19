@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 5px;
+    
 }
 
 .product-container {
@@ -22,9 +22,4 @@
 .product img {
     width: 200px;
     height: 200px;
-}
-
-.load-more-container button{
-    background-color: rgb(2, 114, 2);
-    color: white;
 }

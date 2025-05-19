@@ -24,7 +24,4 @@
     height: 200px;
 }
 
-.load-more-container button{
-    background-color: rgb(2, 114, 2);
-    color: white;
-}
+.load-more-container {}
