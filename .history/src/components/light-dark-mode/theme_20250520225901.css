@@ -1,0 +1,35 @@
+:root {
+    --background: #ffffff;
+    --text-primary: #000;
+    --button-bg: #000;
+    --button-text: #ffffff;
+}
+
+[data-theme='dark'] {
+    --background: #000;
+    --text-primary: #ffffff;
+    --button-bg: #fff;
+    --button-text: #000;
+
+}
+
+.light-dark-mode {
+    background-color: var(--background);
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: all 0.5s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.light-dark-mode p {
+    color: var(--text-primary);
+    font-size: 2.3rem;
+}
+
+.light-dark-mode button{
+    background-color: var(--button-bg);
+    border
+}

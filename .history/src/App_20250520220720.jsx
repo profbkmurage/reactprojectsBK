@@ -10,7 +10,7 @@ import LightDarkMode from './components/light-dark-mode'
 function App () {
   return (
     <>
-      <LightDarkMode />
+      
       <QRCodeGenerator />
       <TreeView menus={menus} />
       <LoadMoreData />

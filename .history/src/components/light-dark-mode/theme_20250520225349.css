@@ -1,0 +1,22 @@
+:root {
+    --background: #ffffff;
+    --text-primary: #000;
+    --button-bg: #000;
+    --button-text: #ffffff;
+}
+
+[data-theme='dark'] {
+    --background: #000;
+    --text-primary: #ffffff;
+    --button-bg: #fff;
+    --button-text: #000;
+
+}
+
+.light-dark-mode{
+    background-color: var(--background); 
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    
+}
